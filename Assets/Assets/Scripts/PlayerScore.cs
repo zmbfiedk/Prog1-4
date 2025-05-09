@@ -23,7 +23,7 @@ public class PlayerScore : MonoBehaviour
             Debug.Log("winnner");
         }
 
-        if (Input.GetKeyUp(KeyCode.Escape)) 
+        if (Input.GetKeyUp(KeyCode.H)) 
         {   int Coinvaulue = Random.Range(10, 12);
             AddCoin(Coinvaulue);
         }
