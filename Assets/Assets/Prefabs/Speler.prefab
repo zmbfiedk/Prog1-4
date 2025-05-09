@@ -12,9 +12,7 @@ GameObject:
   - component: {fileID: 8301684143901627399}
   - component: {fileID: 8106194521974508845}
   - component: {fileID: 9071728158220664037}
-  - component: {fileID: 2753983148518905754}
   - component: {fileID: 4852247498913446015}
-  - component: {fileID: 3545765843817208772}
   m_Layer: 0
   m_Name: Speler
   m_TagString: Player
@@ -111,18 +109,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2753983148518905754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3186224991596832847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e81e8c8cdadb0534e97b73ee75b2d07c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &4852247498913446015
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -150,17 +136,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &3545765843817208772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3186224991596832847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 551fcd505d1f9ec42af64d982da120fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 7
-  jumpforce: 10

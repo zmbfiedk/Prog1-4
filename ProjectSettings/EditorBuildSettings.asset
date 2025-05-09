@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Les4/StartScene.unity
+    guid: ce9a0bcaf6a67284c979b982ab1fea34
+  - enabled: 1
+    path: Assets/Scenes/Les4/Gamescene.unity
+    guid: 86c80cd92fb8b7846b297f4e7a544313
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
