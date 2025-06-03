@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Money
+  - PowerUp
   layers:
   - Default
   - TransparentFX
