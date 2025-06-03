@@ -119,3 +119,17 @@ Daarnaast heb ik de opdracht uitgebreid met een tweede golf die 5 seconden na de
 ## Betrokken scripts
 
 - [Spawnmanager.cs (Coroutine-gebaseerd spawnsysteem)](https://github.com/zmbfiedk/Prog1-4/blob/main/Assets/Assets/Scripts/Spawnmanager.cs)
+
+# ExtraOpdracth-1
+
+## Korte omschrijving
+In deze opdracht heb ik een systeem gebouwd waarin de speed van de speler wordt bijgehouden en weergegeven tijdens het spel. De speed wordt live geüpdatet op basis van de powerup van de speler.
+
+## Demonstratie
+
+![Speeddemo](Assets/Assets/Gifs/ezgif-198c096e457036.gif)
+
+## Betrokken code
+
+- [MoveScript](https://github.com/zmbfiedk/Prog1-4/blob/main/Assets/Assets/Scripts/Les6/Moveles6.cs)  
+- [SpeedUiScript](https://github.com/zmbfiedk/Prog1-4/blob/main/Assets/Assets/Scripts/Les6/UI%20script.cs) 
