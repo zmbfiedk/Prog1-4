@@ -120,21 +120,7 @@ Daarnaast heb ik de opdracht uitgebreid met een tweede golf die 5 seconden na de
 
 - [Spawnmanager.cs (Coroutine-gebaseerd spawnsysteem)](https://github.com/zmbfiedk/Prog1-4/blob/main/Assets/Assets/Scripts/Spawnmanager.cs)
 
-# ExtraOpdracth-1
-
-## Korte omschrijving
-In deze opdracht heb ik een systeem gebouwd waarin de speed van de speler wordt bijgehouden en weergegeven tijdens het spel. De speed wordt live geüpdatet op basis van de powerup van de speler.
-
-## Demonstratie
-
-![Speeddemo](Assets/Assets/Gifs/ezgif-198c096e457036.gif)
-
-## Betrokken code
-
-- [MoveScript](https://github.com/zmbfiedk/Prog1-4/blob/main/Assets/Assets/Scripts/Les6/Moveles6.cs)  
-- [SpeedUiScript](https://github.com/zmbfiedk/Prog1-4/blob/main/Assets/Assets/Scripts/Les6/UI%20script.cs) 
-
-# ExtraOpdracht-2: Power-Up Systeem – "Tijdelijke Snelheid Boost"
+# Opdracht 1: Power-Up Systeem – "Tijdelijke Snelheid Boost"
 
 ## Korte omschrijving  
 In deze opdracht heb ik een **power-up systeem** gemaakt waarbij de speler tijdelijk sneller kan bewegen na het oppakken van een object. Het effect duurt 5 seconden en wordt daarna automatisch weer uitgeschakeld. Hiervoor heb ik gebruikgemaakt van **tags**, **OnTriggerEnter**, **variabelen aanpassen**, en **coroutines**.
@@ -148,7 +134,7 @@ In deze opdracht heb ik een **power-up systeem** gemaakt waarbij de speler tijde
 
 ---
 
-# ExtraOpdracht-3: AI Patrol System – "Vijand Patrouilleert tussen Waypoints"
+# Opdracht 2: AI Patrol System – "Vijand Patrouilleert tussen Waypoints"
 
 ## Korte omschrijving  
 In deze opdracht heb ik een AI-systeem gebouwd waarbij een vijand automatisch beweegt tussen meerdere waypoints. Als het doelpunt bereikt is, kiest de vijand het volgende punt. De beweging herhaalt zich continu.
@@ -161,7 +147,7 @@ In deze opdracht heb ik een AI-systeem gebouwd waarbij een vijand automatisch be
 
 ---
 
-# ExtraOpdracht-4: Countdown Timer + Game Over – "Tijd op = Scene Wissel"
+# Opdracht 3: Countdown Timer + Game Over – "Tijd op = Scene Wissel"
 
 ## Korte omschrijving  
 In deze opdracht heb ik een aftellende timer gemaakt die zichtbaar is op het scherm met behulp van **TextMeshPro**. Als de tijd op is, wordt automatisch een "Game Over"-scène geladen. Dit is gedaan met `Time.deltaTime`, een if-statement en `SceneManager.LoadScene`.
@@ -175,7 +161,7 @@ In deze opdracht heb ik een aftellende timer gemaakt die zichtbaar is op het sch
 
 ---
 
-# ExtraOpdracht-5: Besturingsmodi Wisselen – "Lopen en Rijden"
+# Opdracht 4: Besturingsmodi Wisselen – "Lopen en Rijden"
 
 ## Korte omschrijving  
 In deze opdracht kan de speler wisselen tussen twee besturingsmodi: lopen en rijden. Afhankelijk van de modus worden andere snelheden en bewegingen gebruikt. De speler kan met één toets wisselen van modus. De status wordt bijgehouden via een `bool`.
@@ -188,7 +174,7 @@ In deze opdracht kan de speler wisselen tussen twee besturingsmodi: lopen en rij
 
 ---
 
-# ExtraOpdracht-6: Inventaris Systeem – "Voorwerpen Verzamelen met Dictionary"
+# Opdracht 5: Inventaris Systeem – "Voorwerpen Verzamelen met Dictionary"
 
 ## Korte omschrijving  
 In deze opdracht heb ik een inventaris gemaakt waarin meerdere soorten voorwerpen bijgehouden worden. Per soort wordt het aantal geteld met behulp van een **Dictionary**. De speler kan meerdere items tegelijk verzamelen, en de UI wordt automatisch bijgewerkt via TextMeshPro.
